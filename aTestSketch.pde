@@ -6,10 +6,10 @@ PImage hand2, hand3, hand4;
 void setup() {
   size(600, 700);
 
-  hand1 = loadImage("hand1.png");
-  hand2 = loadImage("hand2.png");
-  hand3 = loadImage("hand3.png");
-  hand4 = loadImage("hand4.png");
+  hand1 = loadImage("http://i263.photobucket.com/albums/ii133/kyna_/hand1.png");
+  hand2 = loadImage("http://i263.photobucket.com/albums/ii133/kyna_/hand2.png");
+  hand3 = loadImage("http://i263.photobucket.com/albums/ii133/kyna_/hand3.png");
+  hand4 = loadImage("http://i263.photobucket.com/albums/ii133/kyna_/hand4.png");
 
   springA = new Spring(200, 100, 40, 0.98, 8.0, 0.1);
   springB = new Spring(75, 150, 40, 0.98, 8.0, 0.1);
